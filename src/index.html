@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>BDay</title>
+    <link rel="stylesheet" href="styles/main.scss">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero__title">My BDay</h1>
+            <p class="hero__text">
+                Meu aniversário começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Java Script, 555, Calafate - BH
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/04/2023 às 19h
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Entrada</b>
+                        Até 22h
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Aceitar convite
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--acompanhantes">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Posso levar acompanhantes?</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quae laborum deleniti natus corrupti accusantium, fugiat iusto dolore atque neque harum eaque qui praesentium blanditiis, fuga, repellat sit cumque ipsam!
+                </p>
+            </div>
+            <img class="event__image" src="images/acompanhantes.jpg" alt="Acompanhantes">
+        </div>
+    </section>
+    <section class="event event--bebidas  event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Bebida liberada até 00h!</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quae laborum deleniti natus corrupti accusantium, fugiat iusto dolore atque neque harum eaque qui praesentium blanditiis, fuga, repellat sit cumque ipsam!
+                </p>
+            </div>
+            <img class="event__image" src="images/bebida.jpg" alt="Bebidas">
+        </div>
+    </section>
+    <section class="event event--veganos">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Comidas veganas!</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quae laborum deleniti natus corrupti accusantium, fugiat iusto dolore atque neque harum eaque qui praesentium blanditiis, fuga, repellat sit cumque ipsam!
+                </p>
+            </div>
+            <img class="event__image" src="images/veganos.jpg" alt="Comidas veganas">
+        </div>
+    </section>
+    <section class="event event--bandas  event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Música Ao Vivo!</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quae laborum deleniti natus corrupti accusantium, fugiat iusto dolore atque neque harum eaque qui praesentium blanditiis, fuga, repellat sit cumque ipsam!
+                </p>
+            </div>
+            <img class="event__image" src="images/musica.jpg" alt="Banda">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
